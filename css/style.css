@@ -19,7 +19,8 @@
 
 html{
     font-size: 62,5%;
-    background: linear-gradient(0.75turn, rgb(78, 78, 78), rgb(77, 77, 78), rgb(54, 54, 54));;
+    background: linear-gradient(0.75turn, rgb(78, 78, 78), rgb(77, 77, 78), rgb(54, 54, 54));
+    font-family: 'Roboto Mono', monospace;
 }
 
 /******************************************
@@ -51,8 +52,7 @@ p{
     margin-top: 3%;
 }
 .search-glass{
-    width: 80%;
-    height: 90%;
+    width: 65%;
 }
 .lista-wybor{
     color: white;
