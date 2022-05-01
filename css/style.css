@@ -72,6 +72,29 @@ p{
     height: 25px;
     width: 25px;
 }
+
+.all-burgers{
+    height: 70vmin;
+    border: 0.1rem solid black;
+    display: flex;
+    flex-flow: row wrap;
+}
+.burger-show{
+    width: 50%;
+    border: 0.1rem solid white;
+}
+.burger-show-resize{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+}
+.description-burger{
+    text-align: center;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
