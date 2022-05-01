@@ -82,11 +82,13 @@ p{
 .burger-show{
     width: 50%;
     border: 0.1rem solid white;
-}
-.burger-show-resize{
     display: flex;
     flex-flow: column;
     align-items: center;
+    color: white;
+}
+.burger-show-resize{
+
 }
 
 h2{
