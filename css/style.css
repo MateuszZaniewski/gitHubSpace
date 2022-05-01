@@ -1,0 +1,88 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+html{
+    font-size: 62,5%;
+    background: linear-gradient(0.75turn, rgb(78, 78, 78), rgb(77, 77, 78), rgb(54, 54, 54));;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+h1{
+    color: white;
+    clear: both;
+    text-align: center;
+}
+
+p{
+    color: white;
+    clear: both;
+    text-align: center;
+}
+.hamburger-menu{
+    float: left;
+    color: white;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.search-icon{
+    float: right;
+    color: white;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+.search-glass{
+    width: 80%;
+    height: 90%;
+}
+.lista-wybor{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    line-height: 25px;
+    padding: 0;
+    font-size: 1.2rem;
+}
+#settings-set{
+
+}
+#settings-img{
+    height: 25px;
+    width: 25px;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.hover-bold:hover{
+    font-weight: bold;
+    color: rgb(250, 98, 43);
+    list-style: square;
+}
